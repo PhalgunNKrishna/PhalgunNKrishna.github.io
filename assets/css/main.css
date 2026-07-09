@@ -3260,6 +3260,11 @@ input, select, textarea {
 				text-align: right;
 			}
 
+			#wrapper section > header.align-left {
+				justify-self: start;
+				text-align: left;
+			}
+
 				#wrapper section > header h2 {
 					margin: 0 0 5rem 0;
 				}
