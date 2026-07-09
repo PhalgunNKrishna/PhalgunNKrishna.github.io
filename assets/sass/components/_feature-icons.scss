@@ -17,7 +17,7 @@
 			margin-top: 0;
 		}
 
-		li {
+		> li {
 			margin: (_size(element-margin) * 1.25) 0 0 0;
 			padding: 0.5rem 0 0 4.5rem;
 			position: relative;
@@ -44,6 +44,11 @@
 			&:nth-child(2) {
 				margin-top: 0;
 			}
+		}
+
+		> li ul li {
+			margin: 0;
+			padding: 0 0 0.75rem 0;
 		}
 
 		@include breakpoint('<=small') {
